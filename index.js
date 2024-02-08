@@ -87,7 +87,7 @@ app.post(
 
 
 
-var port = process.env.PORT || 5000;
+var port = 8000 || process.env.PORT;
 
 
 app.listen(port,function(){
